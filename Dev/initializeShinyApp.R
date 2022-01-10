@@ -1,5 +1,6 @@
 library(purrr)
 initializeShinyApp = function(dest = './', theme = "SALURBAL"){
+  # dest = "dest/";theme = "SALURBAL"
   
   ## 1. Setup folders
   c("CSS","HTML","www","R","R/Modules") %>% map(~dir.create(paste0(dest,.x)))
@@ -15,6 +16,6 @@ initializeShinyApp = function(dest = './', theme = "SALURBAL"){
   ## 3. Download template
   baseURL=paste0("https://raw.githubusercontent.com/Drexel-UHC/shinyUHC/main/Templates/",theme,"/")
   endpoints %>% map(~download.file(url = paste0(baseURL,.x),
-                                  destfile = paste0(dest,.x)))
+                                   destfile = paste0(dest,.x)))
   
 } 

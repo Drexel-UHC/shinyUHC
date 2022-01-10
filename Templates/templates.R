@@ -1,5 +1,0 @@
-initializeShiny = function(path){
-  
-  
-  
-} 
