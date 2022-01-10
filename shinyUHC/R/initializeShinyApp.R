@@ -10,9 +10,10 @@
 #' initializeShinyApp(dest = "./", theme = "SALURBAL")
 
 initializeShinyApp = function(dest = './', theme = "SALURBAL"){
-  # dest = "dest/";theme = "SALURBAL"
+  # dest = "dest";theme = "SALURBAL"
 
   ## 1. Setup folders
+  dest = ifelse(stringr::str_sub(dest,-1L)=='/',dest,paste0(dest,'/'))
   if(!dest%in%c("./",'/',"")){dir.create(dest)}
   purrr::map(c("CSS","HTML","www","R","R/Modules"),~dir.create(paste0(dest,.x)))
 
