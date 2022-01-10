@@ -1,8 +1,8 @@
 # shinyUHC
 
-Easily initialite UHC or SALURBAL theme shiny apps.
+An R package which allows you to initialize UHC or SALURBAL theme shiny apps.
 
-## Instaliaation
+## Installation
 
 To install the dev version from GitHub:
 
