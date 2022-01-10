@@ -3,7 +3,7 @@
   library(shiny)
 
   ## Load Modules 
-  source("R/Modules/OldFaithful/OldFaithful.R")
+  source("R/Modules/OldFaithful.R")
 }
 
 ui <- fluidPage(
