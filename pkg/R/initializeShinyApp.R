@@ -1,7 +1,7 @@
-#' Split a string
+#' Initialize a themed shiny app
 #'
 #' @param dest the path to initialize your app. By default it is the current directory
-#' @param theme which theme do you want: 1) "SALURBAL" or "UHC"
+#' @param theme which theme do you want: for now "SALURBAL" is available. UHC theme will be added in the future.
 #'
 #' @return A character vector.
 #' @export

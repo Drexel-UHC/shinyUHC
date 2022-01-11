@@ -2,20 +2,20 @@
 % Please edit documentation in R/initializeShinyApp.R
 \name{initializeShinyApp}
 \alias{initializeShinyApp}
-\title{Split a string}
+\title{Initialize a themed shiny app}
 \usage{
 initializeShinyApp(dest = "./", theme = "SALURBAL")
 }
 \arguments{
 \item{dest}{the path to initialize your app. By default it is the current directory}
 
-\item{theme}{which theme do you want: 1) "SALURBAL" or "UHC"}
+\item{theme}{which theme do you want: for now "SALURBAL" is available. UHC theme will be added in the future.}
 }
 \value{
 A character vector.
 }
 \description{
-Split a string
+Initialize a themed shiny app
 }
 \examples{
 initializeShinyApp(dest = "./", theme = "SALURBAL")
