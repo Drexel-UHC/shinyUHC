@@ -15,7 +15,7 @@ initializeShinyApp = function(dest = './', theme = "SALURBAL"){
   ## 1. Setup folders
   dest = ifelse(stringr::str_sub(dest,-1L)=='/',dest,paste0(dest,'/'))
   if(!dest%in%c("./",'/',"")){dir.create(dest)}
-  purrr::map(c("CSS","HTML","www","R","R/Modules"),~dir.create(paste0(dest,.x)))
+  purrr::map(c("CSS","HTML","www","R","R/Modules"),~dir.create(paste0(dest,.x),showWarnings=F))
 
 
   ## 2. Get endpoints
@@ -27,7 +27,10 @@ initializeShinyApp = function(dest = './', theme = "SALURBAL"){
 
   ## 3. Download template
   baseURL=paste0("https://raw.githubusercontent.com/Drexel-UHC/shinyUHC/main/Templates/",theme,"/")
-  purrr::map(endpoints,~download.file(url = paste0(baseURL,.x),
-                                      destfile = paste0(dest,.x), mode = 'wb'))
+  purrr::walk(endpoints,~{
+    download.file(url = paste0(baseURL,.x),
+                  destfile = paste0(dest,.x), mode = 'wb')
+    print(paste0("Import: ",.x))
+  })
 
 }
