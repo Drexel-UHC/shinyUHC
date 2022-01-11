@@ -12,5 +12,4 @@ RoxygenNote: 7.1.2
 Imports: 
     purrr,
     stringr
-URL: https://drexel-uhc.github.io/shinyUHC/ 
-BugReports: https://github.com/Drexel-UHC/shinyUHC/issues
+URL: https://drexel-uhc.github.io/shinyUHC/
