@@ -8,7 +8,7 @@ To install the dev version from GitHub:
 
 ```
 library(devtools)
-install_github("Drexel-UHC/shinyUHC/pkg")
+install_github("Drexel-UHC/shinyUHC")
 ```
 
 ## Getting Started
