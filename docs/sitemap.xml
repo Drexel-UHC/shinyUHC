@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/404.html</loc>
+    <loc>https://drexel-uhc.github.io/shinyUHC/404.html</loc>
   </url>
   <url>
-    <loc>/authors.html</loc>
+    <loc>https://drexel-uhc.github.io/shinyUHC/authors.html</loc>
   </url>
   <url>
-    <loc>/index.html</loc>
+    <loc>https://drexel-uhc.github.io/shinyUHC/index.html</loc>
   </url>
   <url>
-    <loc>/LICENSE-text.html</loc>
+    <loc>https://drexel-uhc.github.io/shinyUHC/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>/LICENSE.html</loc>
+    <loc>https://drexel-uhc.github.io/shinyUHC/LICENSE.html</loc>
   </url>
   <url>
-    <loc>/reference/HTML/FontAwesomeLoader.html</loc>
+    <loc>https://drexel-uhc.github.io/shinyUHC/reference/HTML/FontAwesomeLoader.html</loc>
   </url>
   <url>
-    <loc>/reference/HTML/Footer.html</loc>
+    <loc>https://drexel-uhc.github.io/shinyUHC/reference/HTML/Footer.html</loc>
   </url>
   <url>
-    <loc>/reference/HTML/Header.html</loc>
+    <loc>https://drexel-uhc.github.io/shinyUHC/reference/HTML/Header.html</loc>
   </url>
   <url>
-    <loc>/reference/HTML/Home.html</loc>
+    <loc>https://drexel-uhc.github.io/shinyUHC/reference/HTML/Home.html</loc>
   </url>
   <url>
-    <loc>/reference/index.html</loc>
+    <loc>https://drexel-uhc.github.io/shinyUHC/reference/index.html</loc>
   </url>
   <url>
-    <loc>/reference/initializeShinyApp.html</loc>
+    <loc>https://drexel-uhc.github.io/shinyUHC/reference/initializeShinyApp.html</loc>
   </url>
 </urlset>

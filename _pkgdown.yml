@@ -1,7 +1,3 @@
-url: ~
+url: https://drexel-uhc.github.io/shinyUHC/
 template:
   bootstrap: 5
-navbar:
-  structure:
-    left:  [reference]
-    right: [search, github]
