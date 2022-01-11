@@ -1,30 +1,41 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
 # shinyUHC <img src="man/figures/hex_logo.png" align="right" alt="" width="120" />
 
-An R package which allows you to initialize UHC or SALURBAL theme shiny
-apps.
+
+An R package which allows you to initialize UHC or SALURBAL theme shiny apps.
 
 ## Installation
 
 To install the dev version from GitHub:
 
-``` r
+```{r, eval = FALSE}
 library(devtools)
 install_github("Drexel-UHC/shinyUHC")
 ```
+
 
 ## Getting Started
 
 Once install, load the library and initiate a shiny app.
 
-``` r
+```{r, eval = FALSE}
 library(shinyUHC)
 ## Initialize a SALURBAL themed Shiny app
 initializeShinyApp(dest = "./app", theme ="SALURBAL")
 ```
 
-Your theme shiny app template can be found in the destination folder you
-set. For help or bug report please submit issues onto this repository!
-Happy coding 🍰!!
+
+Your theme shiny app template can be found in the destination folder you set. For help or bug report please submit issues onto this repository! Happy coding 🍰!!
+
