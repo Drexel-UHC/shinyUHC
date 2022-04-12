@@ -9,7 +9,7 @@ initializeShinyApp(dest = "./", theme = "SALURBAL")
 \arguments{
 \item{dest}{the path to initialize your app. By default it is the current directory}
 
-\item{theme}{which theme do you want: for now "SALURBAL" is available. UHC theme will be added in the future.}
+\item{theme}{which theme do you want:Two options are available "UHC" or "SALURBAL".}
 }
 \value{
 A character vector.
