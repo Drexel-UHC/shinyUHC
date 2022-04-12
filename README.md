@@ -21,6 +21,8 @@ Once install, load the library and initiate a shiny app.
 
 ``` r
 library(shinyUHC)
+## Initialize a UHC themed Shiny app
+initializeShinyApp(dest = "./app", theme ="UHC")
 ## Initialize a SALURBAL themed Shiny app
 initializeShinyApp(dest = "./app", theme ="SALURBAL")
 ```
