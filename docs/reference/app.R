@@ -2,7 +2,7 @@
   ## Dependencies
   library(shiny)
 
-  ## Load Modules 
+  ## Load Modules
   source("R/Modules/OldFaithful.R")
 }
 
@@ -13,7 +13,7 @@ ui <- fluidPage(
   tags$head(includeHTML("HTML/FontAwesomeLoader.html")),
   includeHTML("HTML/Header.html"),
   navbarPage( id = 'navbar',
-              title = "COVID-19 in SALURBAL Countries",
+              title = "Title",
               tabPanel("Home",includeHTML("HTML/Home.html")),
               tabPanel("Figure1",OldFaithful_UI("Figure1"))
   ),
