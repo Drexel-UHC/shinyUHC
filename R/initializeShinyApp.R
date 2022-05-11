@@ -8,7 +8,7 @@
 #' @export
 #'
 #' @examples
-#' initializeShinyApp(dest = "./", theme = "SALURBAL")
+#' initializeShinyApp(dest = "./demo", theme = "SALURBAL")
 
 initializeShinyApp = function(dest = './', theme = "SALURBAL"){
   # theme = "SALURBAL"

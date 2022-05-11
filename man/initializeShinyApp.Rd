@@ -19,5 +19,5 @@ A character vector.
 Initialize a themed shiny app
 }
 \examples{
-initializeShinyApp(dest = "./", theme = "SALURBAL")
+initializeShinyApp(dest = "./demo", theme = "SALURBAL")
 }
