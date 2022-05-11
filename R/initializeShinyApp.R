@@ -1,7 +1,7 @@
 #' Initialize a themed shiny app
 #'
-#' @param dest the path to initialize your app. A few rules: 1) you should not sepcify the file name, just the directory.
-#' './folder/app.R' is wrong. './folder/' is correct. 2) right  now only creation of folder within current directory.
+#' @param dest the path to initialize your app. Important: you should not specify the file name, just the directory.
+#' './folder/app.R' is wrong. './folder/' is correct. A folder will be created with an app.R file already initialized!
 #' @param theme which theme do you want: Two options are available "UHC" or "SALURBAL"
 #'
 #' @return A character vector.
@@ -41,7 +41,6 @@ initializeShinyApp = function(dest = './', theme = "SALURBAL"){
                          "HTML/FontAwesomeLoader.html", "HTML/Footer.html", "HTML/Header.html",
                          "HTML/Home.html", "R/Modules/OldFaithful.R",
                          "www/favicon.ico","www/logo.png"))
-
   endpoints = unlist(ifelse(theme=="SALURBAL",endpoints_SALURBAL,endpoints_UHC))
 
   ## 4. Download template
@@ -51,7 +50,6 @@ initializeShinyApp = function(dest = './', theme = "SALURBAL"){
                   destfile = paste0(dest_output,.x),
                   mode = 'wb',
                   quiet = T)
-
   })
 
   ## 5. Open new app file

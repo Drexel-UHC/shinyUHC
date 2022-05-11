@@ -7,9 +7,10 @@
 initializeShinyApp(dest = "./", theme = "SALURBAL")
 }
 \arguments{
-\item{dest}{the path to initialize your app. By default it is the current directory}
+\item{dest}{the path to initialize your app. Important: you should not specify the file name, just the directory.
+'./folder/app.R' is wrong. './folder/' is correct. A folder will be created with an app.R file already initialized!}
 
-\item{theme}{which theme do you want:Two options are available "UHC" or "SALURBAL".}
+\item{theme}{which theme do you want: Two options are available "UHC" or "SALURBAL"}
 }
 \value{
 A character vector.
