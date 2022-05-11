@@ -1,7 +1,8 @@
 #' Initialize a themed shiny app
 #'
-#' @param dest the path to initialize your app. By default it is the current directory
-#' @param theme which theme do you want:Two options are available "UHC" or "SALURBAL".
+#' @param dest the path to initialize your app; you should not sepcify the file name, just the directory.
+#' './folder/app.R' is wrong. './folder/' is correct.  By default it is the current directory.
+#' @param theme which theme do you want: Two options are available "UHC" or "SALURBAL"
 #'
 #' @return A character vector.
 #' @export
@@ -38,4 +39,9 @@ initializeShinyApp = function(dest = './', theme = "SALURBAL"){
     print(paste0("Import: ",.x))
   })
 
+  ## 4. Open new app file
+  cleaned_dest = ifelse(stringr::str_sub(dest,1,1)=='.',stringr::str_sub(dest,2,-1L),dest)
+  cleaned_dest = ifelse(stringr::str_sub(dest,-1L)!='/',paste0(dest,'/'),dest)
+  print(paste0("* ShinyUHC app successfully initialized at ",paste0(getwd(),cleaned_dest,'app.R')))
+  if(rstudioapi::isAvailable()){rstudioapi::navigateToFile(paste0(cleaned_dest,'app.R'))}
 }
