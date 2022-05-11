@@ -16,7 +16,11 @@ initializeShinyApp(dest = "./", theme = "SALURBAL")
 A character vector.
 }
 \description{
-Initialize a themed shiny app
+We are working to make high level function which will initialize a boilerplate shiny application with certain
+features already included; for now these include branding and a loading page. In the future we will work to
+add additional modules as specified by the user. For example an the addition of boilerplate code for
+sync-maps, sankeys ... any other type of visualization that we have previous already developed. This
+hopefully will allow open-sourcing of high level shiny development and making getting started with Shiny easier.
 }
 \examples{
 initializeShinyApp(dest = "./demo", theme = "SALURBAL")
