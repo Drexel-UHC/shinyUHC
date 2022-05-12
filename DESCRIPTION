@@ -14,3 +14,6 @@ Imports:
     stringr
 URL: https://drexel-uhc.github.io/shinyUHC/, https://github.com/Drexel-UHC/shinyUHC
 BugReports: https://github.com/Drexel-UHC/shinyUHC/issues
+Depends: 
+    R (>= 2.10)
+LazyData: true

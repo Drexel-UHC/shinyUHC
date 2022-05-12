@@ -1,0 +1,14 @@
+#' Boundary files for Philadelphia ZCTAS
+#'
+
+#'
+#' @format An tidy tibble which contains zcta-level indicators for the city of Philadelphia.
+#' \describe{
+#'   \item{zcta}{Zcta as 5 character string. }
+#'   \item{city}{City of which zcta belongs to; in this case just Philadelphia}
+#'   \item{indicator}{Short coding for indicator name. }
+#'   \item{indicator_label}{Human readable indicator label}
+#'   \item{value}{value of the indicator for the associated zcta.}
+#' }
+#' @source {Adélie penguins: Palmer Station Antarctica LTER and K. Gorman. 2020. Structural size measurements and isotopic signatures of foraging among adult male and female Adélie penguins (Pygoscelis adeliae) nesting along the Palmer Archipelago near Palmer Station, 2007-2009 ver 5. Environmental Data Initiative} \url{https://doi.org/10.6073/pasta/98b16d7d563f265cb52372c8ca99e60f}
+"tidy_indicators_philly"
