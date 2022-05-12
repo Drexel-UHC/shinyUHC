@@ -9,6 +9,7 @@
 #'   \item{indicator}{Short coding for indicator name. }
 #'   \item{indicator_label}{Human readable indicator label}
 #'   \item{value}{value of the indicator for the associated zcta.}
+#'   \item{tooltip}{Basic tooltip for maps.}
 #' }
 #' @source {Adélie penguins: Palmer Station Antarctica LTER and K. Gorman. 2020. Structural size measurements and isotopic signatures of foraging among adult male and female Adélie penguins (Pygoscelis adeliae) nesting along the Palmer Archipelago near Palmer Station, 2007-2009 ver 5. Environmental Data Initiative} \url{https://doi.org/10.6073/pasta/98b16d7d563f265cb52372c8ca99e60f}
 "tidy_indicators_philly"

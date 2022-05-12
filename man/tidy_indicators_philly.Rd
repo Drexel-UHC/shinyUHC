@@ -12,6 +12,7 @@ An tidy tibble which contains zcta-level indicators for the city of Philadelphia
 \item{indicator}{Short coding for indicator name. }
 \item{indicator_label}{Human readable indicator label}
 \item{value}{value of the indicator for the associated zcta.}
+\item{tooltip}{Basic tooltip for maps.}
 }
 }
 \source{
