@@ -10,10 +10,15 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
+    dplyr,
+    leaflet,
     leafsync,
     purrr,
+    sf,
+    shiny,
     shinyUHC,
-    stringr
+    stringr,
+    waiter
 URL: https://drexel-uhc.github.io/shinyUHC/, https://github.com/Drexel-UHC/shinyUHC
 BugReports: https://github.com/Drexel-UHC/shinyUHC/issues
 Depends: 
