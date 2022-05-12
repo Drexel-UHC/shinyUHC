@@ -1,6 +1,6 @@
 Package: shinyUHC
 Title: Introduction to shinyUHC
-Version: 0.0.0.9
+Version: 0.1.2
 Authors@R: 
     person("Ran", "Li", , "rl627@drexel.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-4699-4755"))
